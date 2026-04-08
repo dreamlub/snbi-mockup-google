@@ -1,0 +1,221 @@
+.container {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.layout {
+  display: flex;
+  gap: 40px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.profileCard {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.grade {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.gold {
+  background: var(--gold);
+  color: var(--bg-deep);
+}
+
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sideNav a {
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+
+.sideNav a:hover {
+  background: var(--glass-bg);
+  color: var(--text-main);
+}
+
+.active {
+  background: var(--primary-glow) !important;
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+
+/* Main Content */
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.summaryBox {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summaryBox span {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.summaryBox strong {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.orderSection {
+  padding: 30px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.more {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.orderTable {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.orderRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.orderLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.date {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.orderId {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.orderName {
+  flex-grow: 1;
+  margin: 0 40px;
+  font-size: 15px;
+}
+
+.orderPrice {
+  width: 120px;
+  text-align: right;
+  font-weight: 600;
+}
+
+.orderStatus {
+  width: 100px;
+  text-align: right;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.referralBanner {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.referralBanner h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.referralBanner p {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
+  
+  .sideNav {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .summaryGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .orderRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .orderName, .orderPrice, .orderStatus {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+}

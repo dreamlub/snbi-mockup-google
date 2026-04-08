@@ -1,0 +1,163 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: var(--bg-deep);
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  padding: 50px 40px;
+  border-radius: 30px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.indicator {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.dot {
+  width: 40px;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.activeDot {
+  background: var(--primary);
+  box-shadow: 0 0 10px var(--primary-glow);
+}
+
+.stepContent h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Step 1: Agreements */
+.agreements {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: var(--bg-dark);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.checkItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.checkItem label {
+  font-size: 14px;
+  color: var(--text-main);
+  cursor: pointer;
+}
+
+/* Step 2: Verification */
+.verifyRow {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.verifyBtn {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.verifyBtn:hover {
+  background: var(--primary-glow);
+  border-color: var(--primary);
+}
+
+/* Step 3: Info Form */
+.infoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.group input {
+  background: var(--bg-dark);
+  border: 1px solid var(--border);
+  color: white;
+  padding: 14px 16px;
+  border-radius: 12px;
+  outline: none;
+}
+
+/* Step 4: Success */
+.successStep {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.successIcon {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.successStep p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.actions {
+  margin-top: 40px;
+  display: flex;
+  gap: 12px;
+}
+
+.prevBtn {
+  flex: 1;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  flex: 2;
+  width: 100%;
+}

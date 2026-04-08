@@ -1,0 +1,196 @@
+.wrapper {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.mainInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.imageSection {
+  width: 100%;
+}
+
+.imageContainer {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detailSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryBadge {
+  display: inline-block;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.description {
+  color: var(--text-muted);
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.priceCard {
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.priceRow span:first-child {
+  color: var(--text-muted);
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+.gradeLabel {
+  background: var(--gold);
+  color: var(--bg-deep);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.userPrice {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.savings {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.options {
+  margin-bottom: 40px;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.quantity {
+  display: flex;
+  border: 1px solid var(--border);
+  width: fit-content;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.quantity button {
+  padding: 10px 15px;
+  background: var(--glass-bg);
+  color: white;
+}
+
+.quantity input {
+  width: 50px;
+  text-align: center;
+  background: transparent;
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  color: white;
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.actions button {
+  flex: 1;
+}
+
+.cartBtn {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.cartBtn:hover {
+  background: var(--primary-glow);
+}
+
+.subInfo {
+  margin-top: 20px;
+  font-size: 13px;
+  color: var(--success);
+}
+
+.related h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .mainInfo {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .relatedGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

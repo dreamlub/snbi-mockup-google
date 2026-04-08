@@ -1,0 +1,126 @@
+.container {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-bottom: 40px;
+}
+
+.boardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.tab {
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.activeTab {
+  background: var(--primary-glow);
+  color: var(--primary);
+}
+
+.search input {
+  background: var(--bg-dark);
+  border: 1px solid var(--border);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  width: 240px;
+  outline: none;
+}
+
+.boardTable {
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 80px 1fr 120px 120px 100px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 80px 1fr 120px 120px 100px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+.tableRow:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.tableRow span {
+  font-size: 14px;
+}
+
+.postTitle {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.noticeBadge {
+  background: var(--accent);
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .tableHeader {
+    display: none;
+  }
+  
+  .tableRow {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  
+  .postTitle {
+    grid-column: 1 / span 2;
+    order: -1;
+    font-size: 16px;
+  }
+}

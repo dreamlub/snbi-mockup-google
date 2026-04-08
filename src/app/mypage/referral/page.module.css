@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.codeCard {
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.label {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.codeRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.code {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: 2px;
+}
+
+.copyBtn {
+  background: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.copyBtn:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.benefitSection h2 {
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.benefitGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.benefitItem {
+  padding: 30px;
+}
+
+.benefitItem h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--accent);
+}
+
+.benefitItem p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.shareSection {
+  text-align: center;
+}
+
+.shareSection p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.shareIcons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.shareIcons button {
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid var(--border);
+}
+
+.kakao {
+  background: #FEE500;
+  color: #371717;
+}
+
+.link {
+  background: var(--glass-bg);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .benefitGrid {
+    grid-template-columns: 1fr;
+  }
+}
