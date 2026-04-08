@@ -40,7 +40,7 @@ export const MOCK_PRODUCTS: Product[] = [
       GOLD: 68000,
       VIP: 59500,
     },
-    image: 'https://images.unsplash.com/photo-1594125350485-3b94107198bb?q=80&w=400',
+    image: '/images/products/asrixon-lotion.png',
     stock: 100,
   },
   {
