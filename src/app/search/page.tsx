@@ -1,12 +1,12 @@
 'use client';
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { MOCK_PRODUCTS, MOCK_USER } from '@/data/mock';
 import ProductCard from '@/components/products/ProductCard';
 import styles from './page.module.css';
 
-const SearchPage = () => {
+const SearchContent = () => {
   const searchParams = useSearchParams();
   const query = searchParams.get('q') || '';
   
@@ -16,7 +16,7 @@ const SearchPage = () => {
   );
 
   return (
-    <div className={`${styles.container} container`}>
+    <>
       <h1 className={styles.title}>
         &quot;{query}&quot; <span className={styles.muted}>검색 결과</span>
       </h1>
@@ -35,6 +35,16 @@ const SearchPage = () => {
           </div>
         )}
       </div>
+    </>
+  );
+};
+
+const SearchPage = () => {
+  return (
+    <div className={`${styles.container} container`}>
+      <Suspense fallback={<div>Searching...</div>}>
+        <SearchContent />
+      </Suspense>
     </div>
   );
 };

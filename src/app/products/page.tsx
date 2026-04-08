@@ -1,12 +1,12 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { MOCK_PRODUCTS, MOCK_USER } from '@/data/mock';
 import ProductCard from '@/components/products/ProductCard';
 import styles from './page.module.css';
 
-const ProductListPage = () => {
+const ProductsContent = () => {
   const searchParams = useSearchParams();
   const initialCategory = searchParams.get('category') || 'ALL';
   
@@ -30,9 +30,7 @@ const ProductListPage = () => {
   });
 
   return (
-    <div className={`${styles.container} container`}>
-      <h1 className={styles.title}>Products</h1>
-      
+    <>
       <div className={styles.filters}>
         <div className={styles.categoryTabs}>
           {categories.map(cat => (
@@ -66,6 +64,17 @@ const ProductListPage = () => {
           </div>
         )}
       </div>
+    </>
+  );
+};
+
+const ProductListPage = () => {
+  return (
+    <div className={`${styles.container} container`}>
+      <h1 className={styles.title}>Products</h1>
+      <Suspense fallback={<div>Loading products...</div>}>
+        <ProductsContent />
+      </Suspense>
     </div>
   );
 };
