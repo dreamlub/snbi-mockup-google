@@ -10,7 +10,7 @@ const OrdersPage = () => {
   const orders = [
     { id: 'ORD-20240409-12345', date: '2024-04-09', name: '빠사쥬 프리미엄 에센스 外 1건', price: 132000, status: '주문완료', image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=200' },
     { id: 'ORD-20240405-99881', date: '2024-04-05', name: '수리모 리페어링 샴푸', price: 36000, status: '배송중', image: 'https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?q=80&w=200' },
-    { id: 'ORD-20240328-77612', date: '2024-03-28', name: '아스릭손 센트럴 로션', price: 68000, status: '배송완료', image: 'https://images.unsplash.com/photo-1594125350485-3b94107198bb?q=80&w=200' },
+    { id: 'ORD-20240328-77612', date: '2024-03-28', name: '아스릭손 센트럴 로션', price: 68000, status: '배송완료', image: '/images/products/asrixon-lotion.png' },
   ];
 
   const filteredOrders = filter === 'ALL' ? orders : orders.filter(o => o.status === filter);
