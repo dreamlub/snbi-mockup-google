@@ -1,0 +1,329 @@
+/* ════════════════════════════════
+   Admin Products — Shared CSS
+   ════════════════════════════════ */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.header p {
+  color: var(--color-text-secondary, #aaa);
+  font-size: 0.9rem;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* ── Buttons ── */
+.btnPrimary {
+  background-color: var(--color-primary, #5b52e8);
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: opacity 0.2s;
+}
+.btnPrimary:hover { opacity: 0.85; }
+
+.btnOutline {
+  background-color: transparent;
+  color: var(--color-text-primary, #fff);
+  border: 1px solid var(--color-border, #333);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+.btnOutline:hover { background-color: rgba(255,255,255,0.05); }
+
+.btnDanger {
+  background-color: rgba(217,64,64,0.1);
+  color: #d94040;
+  border: 1px solid rgba(217,64,64,0.3);
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: background-color 0.2s;
+}
+.btnDanger:hover { background-color: rgba(217,64,64,0.2); }
+
+/* ── Search / Filter Card ── */
+.filterCard {
+  background-color: var(--color-background-light, #111);
+  border: 1px solid var(--color-border, #333);
+  border-radius: 12px;
+  padding: 18px 20px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 160px;
+}
+.formGroup label {
+  font-size: 0.82rem;
+  color: var(--color-text-secondary, #aaa);
+}
+
+.input, .select {
+  background-color: var(--color-background, #050505);
+  border: 1px solid var(--color-border, #333);
+  color: var(--color-text-primary, #fff);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  width: 100%;
+}
+.input:focus, .select:focus { border-color: var(--color-primary, #5b52e8); }
+
+/* ── Product Table Card ── */
+.tableCard {
+  background-color: var(--color-background-light, #111);
+  border: 1px solid var(--color-border, #333);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--color-border, #333);
+  font-size: 0.9rem;
+  color: var(--color-text-secondary, #aaa);
+}
+
+.tableContainer { overflow-x: auto; }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.table th {
+  background-color: rgba(0,0,0,0.2);
+  padding: 11px 18px;
+  font-size: 0.82rem;
+  color: var(--color-text-secondary, #aaa);
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-border, #333);
+  white-space: nowrap;
+}
+.table td {
+  padding: 12px 18px;
+  font-size: 0.88rem;
+  border-bottom: 1px solid var(--color-border, #333);
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.table tr:last-child td { border-bottom: none; }
+.table tr:hover td { background-color: rgba(255,255,255,0.02); }
+
+.productImg {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
+  background-color: #1a1a1a;
+}
+
+.categoryBadge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.cat_SKIN   { background-color: rgba(91,82,232,0.2); color: #9d97f5; }
+.cat_BODY   { background-color: rgba(45,184,122,0.2); color: #2db87a; }
+.cat_HAIR   { background-color: rgba(230,180,0,0.2); color: #e6b400; }
+.cat_OTHER  { background-color: rgba(255,255,255,0.1); color: #aaa; }
+
+/* ── Form Page Styles ── */
+.formPage {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section {
+  background-color: var(--color-background-light, #111);
+  border: 1px solid var(--color-border, #333);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--color-border, #333);
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sectionBody {
+  padding: 20px 24px;
+}
+
+.formGrid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.formGrid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.priceGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.priceItem {
+  background-color: rgba(0,0,0,0.2);
+  border: 1px solid var(--color-border, #333);
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.priceLabel {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.priceLabel.vip    { color: #e6b400; }
+.priceLabel.gold   { color: #ffd700; }
+.priceLabel.silver { color: #c0c0c0; }
+.priceLabel.normal { color: #aaa; }
+.priceLabel.base   { color: var(--color-text-primary, #fff); }
+
+.priceInput {
+  background-color: var(--color-background, #050505);
+  border: 1px solid var(--color-border, #333);
+  color: var(--color-text-primary, #fff);
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  width: 100%;
+  outline: none;
+}
+.priceInput:focus { border-color: var(--color-primary, #5b52e8); }
+
+/* ── Mock Rich Editor ── */
+.editorWrapper {
+  border: 1px solid var(--color-border, #333);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.editorToolbar {
+  display: flex;
+  gap: 2px;
+  background-color: rgba(0,0,0,0.3);
+  border-bottom: 1px solid var(--color-border, #333);
+  padding: 6px 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.toolbarGroup {
+  display: flex;
+  gap: 1px;
+  margin-right: 6px;
+  padding-right: 6px;
+  border-right: 1px solid var(--color-border, #333);
+}
+.toolbarGroup:last-child { border-right: none; }
+
+.toolbarBtn {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary, #aaa);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-family: sans-serif;
+  line-height: 1;
+  transition: background-color 0.15s, color 0.15s;
+}
+.toolbarBtn:hover {
+  background-color: rgba(255,255,255,0.08);
+  color: var(--color-text-primary, #fff);
+}
+.toolbarSelect {
+  background-color: rgba(0,0,0,0.4);
+  border: 1px solid var(--color-border, #333);
+  color: var(--color-text-secondary, #aaa);
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.editorBody {
+  background-color: var(--color-background, #050505);
+  color: var(--color-text-primary, #fff);
+  min-height: 280px;
+  padding: 14px 16px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  resize: vertical;
+  outline: none;
+  width: 100%;
+  border: none;
+  font-family: inherit;
+}
+
+/* ── Form Page Footer ── */
+.formFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-top: 4px;
+}

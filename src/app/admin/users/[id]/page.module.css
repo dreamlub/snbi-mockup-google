@@ -1,0 +1,202 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border, #333);
+}
+
+.titleArea {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.titleArea h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.gradeBadge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.grade_VIP { background-color: rgba(230, 180, 0, 0.2); color: #e6b400; }
+.grade_GOLD { background-color: rgba(255, 215, 0, 0.2); color: #ffd700; }
+.grade_SILVER { background-color: rgba(192, 192, 192, 0.2); color: #c0c0c0; }
+.grade_NORMAL { background-color: rgba(255, 255, 255, 0.1); color: #aaa; }
+
+.headerActions {
+  display: flex;
+  gap: 10px;
+}
+
+.btnPrimary {
+  background-color: var(--color-primary, #5b52e8);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.btnPrimary:hover { opacity: 0.9; }
+
+.btnDanger {
+  background-color: rgba(217, 64, 64, 0.1);
+  color: #d94040;
+  border: 1px solid rgba(217, 64, 64, 0.3);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btnDanger:hover {
+  background-color: rgba(217, 64, 64, 0.2);
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid var(--color-border, #333);
+}
+
+.tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: var(--color-text-secondary, #aaa);
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.tab.active {
+  color: var(--color-text-primary, #fff);
+  border-bottom-color: var(--color-primary, #5b52e8);
+}
+
+.tabContent {
+  background-color: var(--color-background-light, #111);
+  border: 1px solid var(--color-border, #333);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary, #aaa);
+}
+
+.input, .select {
+  background-color: var(--color-background, #050505);
+  border: 1px solid var(--color-border, #333);
+  color: var(--color-text-primary, #fff);
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  width: 100%;
+}
+
+.input:focus, .select:focus {
+  border-color: var(--color-primary, #5b52e8);
+}
+
+.input:read-only {
+  background-color: rgba(255, 255, 255, 0.02);
+  color: var(--color-text-secondary, #aaa);
+  cursor: not-allowed;
+}
+
+.btnOutline {
+  background-color: transparent;
+  color: var(--color-text-primary, #fff);
+  border: 1px solid var(--color-border, #333);
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btnOutline:hover { background-color: rgba(255, 255, 255, 0.05); }
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: var(--color-background-light, #111);
+  border: 1px solid var(--color-border, #333);
+  border-radius: 12px;
+  padding: 24px;
+  width: 400px;
+  max-width: 90vw;
+}
+
+.modalContent h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 12px 20px;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary, #aaa);
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-border, #333);
+}
+
+.table td {
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--color-border, #333);
+}

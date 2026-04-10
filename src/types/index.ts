@@ -8,6 +8,8 @@ export interface User {
   referralCode: string;
   phoneNumber: string;
   bankAccount?: string;
+  createdAt?: string;
+  isActive?: boolean;
 }
 
 export interface Product {
@@ -58,4 +60,34 @@ export interface Commission {
   amount: number;
   source: string; // "Direct" or "Network"
   status: 'PAID' | 'UNPAID';
+}
+
+export type PaymentMethod = 'CARD' | 'KAKAO' | 'NAVER' | 'BANK_TRANSFER';
+export type PaymentStatus = 'SUCCESS' | 'PARTIAL_CANCEL' | 'FULL_CANCEL' | 'FAILED';
+
+export interface Payment {
+  id: string;
+  orderId: string;
+  userId: string;
+  amount: number;
+  cancelledAmount?: number;
+  method: PaymentMethod;
+  status: PaymentStatus;
+  isSubscription: boolean;
+  paidAt: string;
+  pgTransactionId: string;
+}
+
+export type SubscriptionStatus = 'ACTIVE' | 'PAUSED' | 'CANCELLED' | 'EXPIRED';
+
+export interface Subscription {
+  id: string;
+  userId: string;
+  productId: string;
+  status: SubscriptionStatus;
+  amount: number;
+  startedAt: string;
+  nextBillingAt: string;
+  endedAt?: string;
+  grade: UserGrade;
 }
