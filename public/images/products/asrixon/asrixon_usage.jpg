@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="ko-KR" >
+   <head>
+      <meta charset="UTF-8" >
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- 웹사이트 타이틀 -->
+      <title>SNBI 에스엔비아이, PASAZU 빠사쥬  &raquo; 페이지를 찾을 수 없음 </title>
+      <!-- 웹사이트 타이틀 마침 -->
+      <meta name='robots' content='max-image-preview:large' />
+
+<!-- WordPress KBoard plugin 6.2 - https://www.cosmosfarm.com/products/kboard -->
+<link rel="alternate" href="https://pasazu.mycafe24.com/wp-content/plugins/kboard/rss.php" type="application/rss+xml" title="SNBI 에스엔비아이, PASAZU 빠사쥬 &raquo; KBoard 통합 피드">
+<!-- WordPress KBoard plugin 6.2 - https://www.cosmosfarm.com/products/kboard -->
+
+<link rel='dns-prefetch' href='//t1.daumcdn.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/pasazu.mycafe24.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.8"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://pasazu.mycafe24.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.8' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='exo-font-css' href='https://fonts.googleapis.com/css2?family=Exo+2%3Awght%40100%3B300%3B400%3B500%3B700&#038;display=swap&#038;ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='fullpage-style-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/fullPage/jquery.fullpage.min.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-style-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/slick/slick.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-theme-style-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/slick/slick-theme.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/bootstrap/bootstrap.min.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='aos-style-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/aos/aos.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='ktheme-style-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/style.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='ktheme-style-common-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/css/style_common.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='ktheme-style-page-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/css/style_page.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='ktheme-style-slider-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/css/style_slider.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='ktheme-style-um-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/ultimate-member/style_um.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='cosmosfarm-simple-popup-background-css' href='https://pasazu.mycafe24.com/wp-content/plugins/cosmosfarm-simple-popup/assets/css/background.css?ver=2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='cosmosfarm-simple-popup-style-default-css' href='https://pasazu.mycafe24.com/wp-content/plugins/cosmosfarm-simple-popup/template/default/style.css?ver=2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://pasazu.mycafe24.com/wp-content/tablepress-combined.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='ktheme-fabric-style-css' href='https://pasazu.mycafe24.com/wp-content/themes/ktheme_biz_fabric/style.css?ver=6.4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-comments-skin-default-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard-comments/skin/default/style.css?ver=5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-editor-media-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard/template/css/editor_media.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-ktheme-basic-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard/skin/ktheme-basic/style.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-ktheme-faq-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard/skin/ktheme-faq/style.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-ocean-gallery-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard/skin/ocean-gallery/style.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-ktheme-basic-laboratory-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard/skin/ktheme-basic-laboratory/style.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-ktheme-basic-laboratory-notice-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard/skin/ktheme-basic-laboratory-notice/style.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-ktheme-thumbnail-fabric-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard/skin/ktheme-thumbnail-fabric/style.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kboard-skin-ktheme-basic-fabric-notice-css' href='https://pasazu.mycafe24.com/wp-content/plugins/kboard/skin/ktheme-basic-fabric-notice/style.css?ver=6.2' type='text/css' media='all' />
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/fullPage/jquery.fullpage.min.js?ver=1" id="fullpage-script-js"></script>
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/slick/slick.min.js?ver=1" id="slick-script-js"></script>
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/bootstrap/bootstrap.min.js?ver=1" id="bootstrap-script-js"></script>
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/vendor/aos/aos.js?ver=1" id="aos-script-js"></script>
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/js/theme.js?ver=1" id="ktheme-script-js"></script>
+<link rel="https://api.w.org/" href="https://pasazu.mycafe24.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pasazu.mycafe24.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.8" />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var VPData = {"__":{"couldnt_retrieve_vp":"Couldn't retrieve Visual Portfolio ID.","pswp_close":"Close (Esc)","pswp_share":"Share","pswp_fs":"Toggle fullscreen","pswp_zoom":"Zoom in\/out","pswp_prev":"Previous (arrow left)","pswp_next":"Next (arrow right)","pswp_share_fb":"Share on Facebook","pswp_share_tw":"Tweet","pswp_share_pin":"Pin it","fancybox_close":"Close","fancybox_next":"Next","fancybox_prev":"Previous","fancybox_error":"The requested content cannot be loaded. <br \/> Please try again later.","fancybox_play_start":"Start slideshow","fancybox_play_stop":"Pause slideshow","fancybox_full_screen":"Full screen","fancybox_thumbs":"Thumbnails","fancybox_download":"Download","fancybox_share":"Share","fancybox_zoom":"Zoom"},"settingsPopupGallery":{"enable_on_wordpress_images":false,"vendor":"fancybox","deep_linking":false,"deep_linking_url_to_share_images":false,"show_arrows":true,"show_counter":true,"show_zoom_button":true,"show_fullscreen_button":true,"show_share_button":true,"show_close_button":true,"show_thumbs":true,"show_download_button":false,"show_slideshow":false,"click_to_zoom":true},"screenSizes":[320,576,768,992,1200]};
+/* ]]> */
+</script>
+<meta name="generator" content="Elementor 3.20.3; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+        <style type="text/css">
+            /* If html does not have either class, do not show lazy loaded images. */
+            html:not(.vp-lazyload-enabled):not(.js) .vp-lazyload {
+                display: none;
+            }
+        </style>
+        <script>
+            document.documentElement.classList.add(
+                'vp-lazyload-enabled'
+            );
+        </script>
+        <link rel="icon" href="https://pasazu.mycafe24.com/wp-content/uploads/2023/01/cropped-logo1-3-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://pasazu.mycafe24.com/wp-content/uploads/2023/01/cropped-logo1-3-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://pasazu.mycafe24.com/wp-content/uploads/2023/01/cropped-logo1-3-180x180.png" />
+<meta name="msapplication-TileImage" content="https://pasazu.mycafe24.com/wp-content/uploads/2023/01/cropped-logo1-3-270x270.png" />
+   </head>
+   <body class="error404 wp-custom-logo elementor-default elementor-kit-3011">
+	   
+	    <!-- 슬라이더 시작 -->
+		
+		<!-- 슬라이더 마침 -->
+	   
+      <!-- 헤더부 컨테이너 시작 -->
+            <div id="nav-wrapper" class=" header-wrap nav-black" >
+		  
+		  <div class="container">
+			 <div class="overflow-hidden">
+				<ul class="float-end nav-top-menu" >
+				   				   <li><a href="http://211.253.11.206:8888/" class="pe-0 fs-7 ">조합원(회원) 검색</a></li>
+				   				   				   
+				</ul>
+			 </div>
+         <header class="d-flex flex-wrap justify-content-between pt-2  ">
+            <!-- 로고 시작 -->
+										<a id="header-logo" href="https://pasazu.mycafe24.com" class="align-items-center mb-0 mb-md-0 me-md-auto text-dark text-decoration-none">
+							<img src="https://pasazu.mycafe24.com/wp-content/uploads/2024/04/logo_white-1.png" class="custom_logo" alt="logo" >
+						</a>
+									 	<!-- 로고 시작 -->
+											<a id="footer-logo" href="https://pasazu.mycafe24.com" class="align-items-center mb-0 mb-md-0 me-md-auto text-dark text-decoration-none">
+							<img src="http://pasazu.mycafe24.com/wp-content/uploads/2023/01/logo_black-1.png" class="custom_logo" alt="logo" >
+						</a>
+											<!-- 로고 마침 -->
+			 
+				<!-- 로고 마침 -->
+            <!-- 메뉴 시작 -->
+            <nav class="navbar navbar-expand-md navbar-dark ">
+               <div class="container-fluid pe-0">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="main-menu">
+                     <ul id="menu-menu-1" class="top-nav ms-auto"><li id="menu-item-2493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2493"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-%ec%8a%a4%ed%83%80%ec%9d%bc2/">회사소개</a>
+<ul class="sub-menu">
+	<li id="menu-item-2211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2211"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-%ec%8a%a4%ed%83%80%ec%9d%bc2/">SNBI 소개</a></li>
+	<li id="menu-item-2205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2205"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ed%9a%8c%ec%82%ac%eb%b9%84%ec%a0%84/%ed%9a%8c%ec%82%ac%eb%b9%84%ec%a0%84-%ec%8a%a4%ed%83%80%ec%9d%bc1/">SNBI 비전</a></li>
+	<li id="menu-item-2208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2208"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ed%9a%8c%ec%82%ac%ec%97%b0%ed%98%81/">SNBI 연혁</a></li>
+	<li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ec%a1%b0%ec%a7%81%ec%86%8c%ea%b0%9c/">SNBI 조직</a></li>
+	<li id="menu-item-2201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2201"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ec%98%a4%ec%8b%9c%eb%8a%94-%ea%b8%b8/">SNBI 오시는 길</a></li>
+</ul>
+</li>
+<li id="menu-item-3198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3198"><a href="https://pasazu.mycafe24.com/pasazu_%ea%b5%ac%eb%8f%85%ec%84%b8%ed%8a%b8/">제품소개</a>
+<ul class="sub-menu">
+	<li id="menu-item-3145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3145"><a href="https://pasazu.mycafe24.com/pasazu_%ea%b5%ac%eb%8f%85%ec%84%b8%ed%8a%b8/">PASAZU_구독세트</a></li>
+	<li id="menu-item-3312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3312"><a href="https://pasazu.mycafe24.com/%ec%95%84%ec%8a%a4%eb%a6%ad%ec%86%90/">아스릭손</a></li>
+	<li id="menu-item-2735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2735"><a href="https://pasazu.mycafe24.com/%ec%a0%9c%ed%92%88%ec%84%9c%eb%b9%84%ec%8a%a4/%ec%a0%9c%ed%92%88%ec%95%88%eb%82%b4/%ec%9d%b8%ec%a6%9d%ec%84%9c/">인증서</a></li>
+	<li id="menu-item-3147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3147"><a href="https://pasazu.mycafe24.com/%ec%84%9c%eb%b9%84%ec%8a%a4-%ec%86%8c%ea%b0%9c/">서비스 소개</a></li>
+	<li id="menu-item-3146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3146"><a href="https://pasazu.mycafe24.com/%ec%a0%95%ea%b8%b0%ea%b5%ac%eb%8f%85-%ea%b0%80%ec%9d%b4%eb%93%9c/">정기구독 가이드</a></li>
+</ul>
+</li>
+<li id="menu-item-2199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2199"><a href="https://pasazu.mycafe24.com/community/">커뮤니티</a>
+<ul class="sub-menu">
+	<li id="menu-item-2212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212"><a href="https://pasazu.mycafe24.com/community/notice/">공지사항</a></li>
+	<li id="menu-item-2225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2225"><a href="https://pasazu.mycafe24.com/community/%eb%af%b8%eb%94%94%ec%96%b4/">미디어</a></li>
+	<li id="menu-item-2223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2223"><a href="https://pasazu.mycafe24.com/community/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+</ul>                     <ul class="ms-auto util-menu d-none d-lg-flex ps-4" >
+                        <li>
+                           <a href="#" id="top-search" class="text-light">
+                           	<img class="search-white" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_biz_fabric/images/icon_search.svg">
+							   <img class="search-black" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_biz_fabric/images/icon_search_black.svg">
+                           </a>
+                        </li>
+                        <li class="dropdown has-megamenu ps-2">
+                           <a href="#" id="mega-menu" class="text-light pe-0"  data-bs-toggle="collapse" data-bs-target="#top-megamenu" aria-controls="top-megamenu" aria-expanded="false" aria-label="megamenu navigation">
+                           	<img class="mega-btn-white" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_biz_fabric/images/icon_full_menu.svg">
+							   <img class="mega-btn-black" src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_biz_fabric/images/icon_full_menu_black.svg">
+							   
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  
+               </div>
+            </nav>
+            <!-- 메뉴 마침 -->
+         </header>
+		  </div>
+		  
+      </div>
+      <!-- 헤더부 컨테이너 마침 -->
+	   <!-- 전체메뉴 시작 -->
+      <div id="top-megamenu" class="dropdown-menu megamenu dark bg-primary" role="menu" >
+         <div class="container py-5 position-relative"  >
+            <div class="" style="position: relative; z-index: 10;">
+               <ul id="menu-menu-2" class="megamenu-list"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2493"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-%ec%8a%a4%ed%83%80%ec%9d%bc2/">회사소개</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2211"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-%ec%8a%a4%ed%83%80%ec%9d%bc2/">SNBI 소개</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2205"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ed%9a%8c%ec%82%ac%eb%b9%84%ec%a0%84/%ed%9a%8c%ec%82%ac%eb%b9%84%ec%a0%84-%ec%8a%a4%ed%83%80%ec%9d%bc1/">SNBI 비전</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2208"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ed%9a%8c%ec%82%ac%ec%97%b0%ed%98%81/">SNBI 연혁</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ec%a1%b0%ec%a7%81%ec%86%8c%ea%b0%9c/">SNBI 조직</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2201"><a href="https://pasazu.mycafe24.com/%ed%9a%8c%ec%82%ac%ec%86%8c%ea%b0%9c-2/%ec%98%a4%ec%8b%9c%eb%8a%94-%ea%b8%b8/">SNBI 오시는 길</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3198"><a href="https://pasazu.mycafe24.com/pasazu_%ea%b5%ac%eb%8f%85%ec%84%b8%ed%8a%b8/">제품소개</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3145"><a href="https://pasazu.mycafe24.com/pasazu_%ea%b5%ac%eb%8f%85%ec%84%b8%ed%8a%b8/">PASAZU_구독세트</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3312"><a href="https://pasazu.mycafe24.com/%ec%95%84%ec%8a%a4%eb%a6%ad%ec%86%90/">아스릭손</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2735"><a href="https://pasazu.mycafe24.com/%ec%a0%9c%ed%92%88%ec%84%9c%eb%b9%84%ec%8a%a4/%ec%a0%9c%ed%92%88%ec%95%88%eb%82%b4/%ec%9d%b8%ec%a6%9d%ec%84%9c/">인증서</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3147"><a href="https://pasazu.mycafe24.com/%ec%84%9c%eb%b9%84%ec%8a%a4-%ec%86%8c%ea%b0%9c/">서비스 소개</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3146"><a href="https://pasazu.mycafe24.com/%ec%a0%95%ea%b8%b0%ea%b5%ac%eb%8f%85-%ea%b0%80%ec%9d%b4%eb%93%9c/">정기구독 가이드</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2199"><a href="https://pasazu.mycafe24.com/community/">커뮤니티</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2212"><a href="https://pasazu.mycafe24.com/community/notice/">공지사항</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2225"><a href="https://pasazu.mycafe24.com/community/%eb%af%b8%eb%94%94%ec%96%b4/">미디어</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2223"><a href="https://pasazu.mycafe24.com/community/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+</ul>            </div>
+         </div>
+      </div>
+	   <!-- 전체메뉴 마침 -->
+	   <!-- 검색박스 시작 -->
+      <div class="search-wrap">
+         <div class="container position-relative"  >
+            <form method="get" class="top-search-form" action="https://pasazu.mycafe24.com">
+               <input type="text" name="s" placeholder="검색하기 " />
+               <input type="submit" value="검색" />
+            </form>
+         </div>
+      </div>
+	   <!-- 검색박스 마침 -->
+
+      <div class="page-title-overlap bg-dark py-5 overflow-hidden position-relative">
+	<div class="container py-4 py-lg-5">
+				<h1 class="page-title text-light mb-3 position-relative pt-3 text-center text-md-end text-lg-end">Simple and Beauty International</h1>
+				<p class="page-description text-light position-relative text-center  text-md-end text-lg-end">고객과의 신뢰를 통해 성장을 추구하는 에스엔비아이</p>
+		<figure class="background background-overlay"   style='background: url(https://pasazu.mycafe24.com/wp-content/uploads/2023/01/sub_top_banner_web1-8-scaled.jpg) no-repeat; background-size:cover; background-position:center;  '> </figur>
+	</div>
+</div>
+<section class="page-body container position-relative pb-5  pt-5">
+	<div class="pt5 mt-5 mb-3 text-center">
+		<img src="https://pasazu.mycafe24.com/wp-content/themes/ktheme_starter/images/404img.png" alt="!">
+		<h2 class="">페이지를 찾을 수 없습니다.</h2>
+		<p class="">죄송합니다. 연결된 페이지를 찾을 수 없습니다.</p>
+	</div>
+</section>
+
+
+   
+        
+    <div class="border-top"  >
+<footer class="container" >
+	<div class="footer_wrap mt-5 mb-5">
+		<div class="row">
+			<div class="col-md-3">
+				<h3 class="footer_site_name">
+					<!-- 로고 시작 -->
+											<a href="https://pasazu.mycafe24.com" class="d-flex align-items-center mb-0 mb-md-0 me-md-auto text-dark text-decoration-none">
+							<img src="http://pasazu.mycafe24.com/wp-content/uploads/2023/01/logo_black-1.png" class="custom_logo" alt="logo" >
+						</a>
+											<!-- 로고 마침 -->
+				</h3>
+			</div>
+			<div class="col-md-9">
+				<div class="footer_right">
+					<ul id="footer_menu" class="footer_menu "><li id="menu-item-2195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2195"><a href="https://pasazu.mycafe24.com/%ec%9d%b4%ec%9a%a9%ec%95%bd%ea%b4%80/">이용약관</a></li>
+<li id="menu-item-2197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2197"><a href="https://pasazu.mycafe24.com/%ea%b0%9c%ec%9d%b8%ec%a0%95%eb%b3%b4%ec%b2%98%eb%a6%ac%eb%b0%a9%ec%b9%a8/">개인정보처리방침</a></li>
+<li id="menu-item-2196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2196"><a href="https://pasazu.mycafe24.com/%ec%9d%b4%eb%a9%94%ec%9d%bc%eb%ac%b4%eb%8b%a8%ec%88%98%ec%a7%91%ea%b1%b0%eb%b6%80/">이메일무단수집</a></li>
+<li id="menu-item-2623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2623"><a href="https://pasazu.mycafe24.com/%ec%b2%ad%ec%95%bd%ec%a0%88%ec%b0%a8%ec%b2%a0%ed%9a%8c/">청약절차철회</a></li>
+<li id="menu-item-2617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2617"><a href="http://likms.assembly.go.kr/law/lawsLawtInqyDetl1010.do?mappingId=%2FlawsLawtInqyDetl1010.do&#038;genActiontypeCd=2ACT1010&#038;genDoctreattypeCd=DOCT2004&#038;contId=1991123100000005&#038;contSid=0021&#038;cachePreid=ALL&#038;genMenuId=menu_serv_nlaw_lawt_1010&#038;viewGb=PROM">방문판매에관한규정</a></li>
+<li id="menu-item-2186" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2186"><a href="https://kossa.or.kr/user/m3/bbs/union/ddcNotie/selectDdcNotiePopup.do">공제번호조회</a></li>
+<li id="menu-item-2603" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2603"><a href="http://211.253.11.206:8888/">조합원(회원)검색</a></li>
+</ul>				</div>
+				
+				<div class="footer_right">
+					<a href="https://kossa.or.kr/index.do" target="_blank"><img src="http://pasazu.com/wp-content/themes/ktheme_biz_fabric/images/b_01.png" border="0"></a><a href="https://www.ftc.go.kr/" target="_blank"><img src="http://pasazu.com/wp-content/themes/ktheme_biz_fabric/images/b_02.png" border="0"></a>
+				</div>
+
+			<div class="footer-moreinfo-box">
+				<address class="mb-1 mt-4 text-black-50">주식회사 에스엔비아이  ｜ 대표이사 정영재  ｜ 사업자등록번호 426-88-02585</address>
+				<p class="mb-1 text-black-50">(우편번호 41058) 대구광역시 동구 매여로2길 53(매여동) ｜  T. 1600-1559 ｜  E-mail. master@snbi.co.kr</p>
+			</div>
+
+			<a href="#" id="footer-moreinfo" class="btn btn-md btn-light fs-6 rounded-big px-4 d-md-none mb-4"><i class="bi bi-list pe-1"></i> 상세정보</a>
+
+			<p class="copyright text-black-50">
+				Copyright © 2023 에스엔비아이   All Rights Reserved.			</p>
+
+
+			</div>
+
+		</div>
+
+
+
+
+	</div>
+
+
+  </footer>
+	
+</div>
+
+<!-- 상단 바로가기 버튼 시작 -->
+<button onclick="topFunction()" id="gototopBtn" title="Go to top"><i class="bi bi-chevron-up"></i></button>
+<!-- 상단 바로가기 버튼 마침 -->
+
+
+<script type="text/javascript">
+	jQuery('.section [data-aos]').removeClass("aos-animate");
+</script>
+
+
+
+<script type="text/javascript" id="cosmosfarm-simple-popup-script-js-extra">
+/* <![CDATA[ */
+var cosmosfarm_simple_popup_settings = {"ajax_url":"https:\/\/pasazu.mycafe24.com\/wp-admin\/admin-ajax.php","current_page_id":"1","is_front_page":"","init_type":"footer"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-content/plugins/cosmosfarm-simple-popup/assets/js/script.js?ver=2.5" id="cosmosfarm-simple-popup-script-js"></script>
+<script type="text/javascript" id="kboard-script-js-extra">
+/* <![CDATA[ */
+var kboard_settings = {"version":"6.2","home_url":"\/","site_url":"\/","post_url":"https:\/\/pasazu.mycafe24.com\/wp-admin\/admin-post.php","ajax_url":"https:\/\/pasazu.mycafe24.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/pasazu.mycafe24.com\/wp-content\/plugins\/kboard","media_group":"69d882e66de47","view_iframe":"","locale":"ko_KR","ajax_security":"866d685a9d"};
+var kboard_localize_strings = {"kboard_add_media":"KBoard \ubbf8\ub514\uc5b4 \ucd94\uac00","next":"\ub2e4\uc74c","prev":"\uc774\uc804","required":"%s\uc740(\ub294) \ud544\uc218\uc785\ub2c8\ub2e4.","please_enter_the_title":"\uc81c\ubaa9\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_author":"\uc791\uc131\uc790\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_password":"\ube44\ubc00\ubc88\ud638\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_CAPTCHA":"\uc606\uc5d0 \ubcf4\uc774\ub294 \ubcf4\uc548\ucf54\ub4dc\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_name":"\uc774\ub984\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_email":"\uc774\uba54\uc77c\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","you_have_already_voted":"\uc774\ubbf8 \ud22c\ud45c\ud588\uc2b5\ub2c8\ub2e4.","please_wait":"\uae30\ub2e4\ub824\uc8fc\uc138\uc694.","newest":"\ucd5c\uc2e0\uc21c","best":"\ucd94\ucc9c\uc21c","updated":"\uc5c5\ub370\uc774\ud2b8\uc21c","viewed":"\uc870\ud68c\uc21c","yes":"\uc608","no":"\uc544\ub2c8\uc694","did_it_help":"\ub3c4\uc6c0\uc774 \ub418\uc5c8\ub098\uc694?","hashtag":"\ud574\uc2dc\ud0dc\uadf8","tag":"\ud0dc\uadf8","add_a_tag":"\ud0dc\uadf8 \ucd94\uac00","removing_tag":"\ud0dc\uadf8 \uc0ad\uc81c","changes_you_made_may_not_be_saved":"\ubcc0\uacbd\uc0ac\ud56d\uc774 \uc800\uc7a5\ub418\uc9c0 \uc54a\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.","name":"\uc774\ub984","email":"\uc774\uba54\uc77c","address":"\uc8fc\uc18c","address_2":"\uc8fc\uc18c 2","postcode":"\uc6b0\ud3b8\ubc88\ud638","phone_number":"\ud734\ub300\ud3f0\ubc88\ud638","mobile_phone":"\ud734\ub300\ud3f0\ubc88\ud638","phone":"\ud734\ub300\ud3f0\ubc88\ud638","company_name":"\ud68c\uc0ac\uba85","vat_number":"\uc0ac\uc5c5\uc790\ub4f1\ub85d\ubc88\ud638","bank_account":"\uc740\ud589\uacc4\uc88c","name_of_deposit":"\uc785\uae08\uc790\uba85","find":"\ucc3e\uae30","rate":"\ub4f1\uae09","ratings":"\ub4f1\uae09","waiting":"\ub300\uae30","complete":"\uc644\ub8cc","question":"\uc9c8\ubb38","answer":"\ub2f5\ubcc0","notify_me_of_new_comments_via_email":"\uc774\uba54\uc77c\ub85c \uc0c8\ub85c\uc6b4 \ub313\uae00 \uc54c\ub9bc \ubc1b\uae30","ask_question":"\uc9c8\ubb38\ud558\uae30","categories":"\uce74\ud14c\uace0\ub9ac","pages":"\ud398\uc774\uc9c0","all_products":"\uc804\uccb4\uc0c1\ud488","your_orders":"\uc8fc\ubb38\uc870\ud68c","your_sales":"\ud310\ub9e4\uc870\ud68c","my_orders":"\uc8fc\ubb38\uc870\ud68c","my_sales":"\ud310\ub9e4\uc870\ud68c","new_product":"\uc0c1\ud488\ub4f1\ub85d","edit_product":"\uc0c1\ud488\uc218\uc815","delete_product":"\uc0c1\ud488\uc0ad\uc81c","seller":"\ud310\ub9e4\uc790","period":"\uae30\uac04","period_of_use":"\uc0ac\uc6a9\uae30\uac04","last_updated":"\uc5c5\ub370\uc774\ud2b8 \ub0a0\uc9dc","list_price":"\uc815\uc0c1\uac00\uaca9","price":"\ud310\ub9e4\uac00\uaca9","total_price":"\ucd1d \uac00\uaca9","amount":"\uacb0\uc81c\uae08\uc561","quantity":"\uc218\ub7c9","use_points":"\ud3ec\uc778\ud2b8 \uc0ac\uc6a9","my_points":"\ub0b4 \ud3ec\uc778\ud2b8","available_points":"\uc0ac\uc6a9 \uac00\ub2a5 \ud3ec\uc778\ud2b8","apply_points":"\ud3ec\uc778\ud2b8 \uc0ac\uc6a9","buy_it_now":"\uad6c\ub9e4\ud558\uae30","sold_out":"\ud488\uc808","for_free":"\ubb34\ub8cc","pay_s":"%s \uacb0\uc81c","payment_method":"\uacb0\uc81c\uc218\ub2e8","credit_card":"\uc2e0\uc6a9\uce74\ub4dc","make_a_deposit":"\ubb34\ud1b5\uc7a5\uc785\uae08","reward_point":"\uc801\ub9bd \ud3ec\uc778\ud2b8","download_expiry":"\ub2e4\uc6b4\ub85c\ub4dc \uae30\uac04","checkout":"\uc8fc\ubb38\uc815\ubcf4\ud655\uc778","buyer_information":"\uc8fc\ubb38\uc790","applying_cash_receipts":"\ud604\uae08\uc601\uc218\uc99d \uc2e0\uccad","applying_cash_receipt":"\ud604\uae08\uc601\uc218\uc99d \uc2e0\uccad","cash_receipt":"\ud604\uae08\uc601\uc218\uc99d","privacy_policy":"\uac1c\uc778 \uc815\ubcf4 \uc815\ucc45","i_agree_to_the_privacy_policy":"\uac1c\uc778 \uc815\ubcf4 \uc815\ucc45\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","i_confirm_the_terms_of_the_transaction_and_agree_to_the_payment_process":"\uac70\ub798\uc870\uac74\uc744 \ud655\uc778\ud588\uc73c\uba70 \uacb0\uc81c\uc9c4\ud589\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","today":"\uc624\ub298","yesterday":"\uc5b4\uc81c","this_month":"\uc774\ubc88\ub2ec","last_month":"\uc9c0\ub09c\ub2ec","last_30_days":"\ucd5c\uadfc30\uc77c","agree":"\ucc2c\uc131","disagree":"\ubc18\ub300","opinion":"\uc758\uacac","comment":"\ub313\uae00","comments":"\ub313\uae00","your_order_has_been_cancelled":"\uc8fc\ubb38\uc774 \ucde8\uc18c\ub418\uc5c8\uc2b5\ub2c8\ub2e4.","order_information_has_been_changed":"\uc8fc\ubb38\uc815\ubcf4\uac00 \ubcc0\uacbd\ub418\uc5c8\uc2b5\ub2c8\ub2e4.","order_date":"\uc8fc\ubb38\uc77c","point_payment":"\ud3ec\uc778\ud2b8 \uacb0\uc81c","cancel_point_payment":"\ud3ec\uc778\ud2b8 \uacb0\uc81c \ucde8\uc18c","paypal":"\ud398\uc774\ud314","point":"\ud3ec\uc778\ud2b8","zipcode":"\uc6b0\ud3b8\ubc88\ud638","this_year":"\uc62c\ud574","last_year":"\uc791\ub144","period_total":"\uae30\uac04 \ud569\uacc4","total_revenue":"\uc804\uccb4 \uc218\uc775","terms_of_service":"\uc774\uc6a9\uc57d\uad00","i_agree_to_the_terms_of_service":"\uc774\uc6a9\uc57d\uad00\uc5d0 \ub3d9\uc758\ud569\ub2c8\ub2e4.","your_shopping_cart_is_empty":"\uc7a5\ubc14\uad6c\ub2c8\uac00 \ube44\uc5b4 \uc788\uc2b5\ub2c8\ub2e4!","category":"\uce74\ud14c\uace0\ub9ac","select":"\uc120\ud0dd","category_select":"\uce74\ud14c\uace0\ub9ac \uc120\ud0dd","information":"\uc815\ubcf4","telephone":"\uc804\ud654\ubc88\ud638","items":"\ud488\ubaa9","total_amount":"\ud569\uacc4\uae08\uc561","total_quantity":"\ucd1d\uc218\ub7c9","make_payment":"\uacb0\uc81c\ud558\uae30","add":"\ucd94\uac00","close":"\ub2eb\uae30"};
+var kboard_comments_localize_strings = {"reply":"\ub2f5\uae00","cancel":"\ucde8\uc18c","please_enter_the_author":"\uc791\uc131\uc790\uba85\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_password":"\ube44\ubc00\ubc88\ud638\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_CAPTCHA":"\ubcf4\uc548\ucf54\ub4dc\ub97c \uc785\ub825\ud574\uc8fc\uc138\uc694.","please_enter_the_content":"\ub0b4\uc6a9\uc744 \uc785\ub825\ud574\uc8fc\uc138\uc694.","are_you_sure_you_want_to_delete":"\uc0ad\uc81c \ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?","please_wait":"\uc7a0\uc2dc\ub9cc \uae30\ub2e4\ub824\uc8fc\uc138\uc694.","name":"\uc774\ub984","email":"\uc774\uba54\uc77c","address":"\uc8fc\uc18c","postcode":"\uc6b0\ud3b8\ubc88\ud638","phone_number":"\uc5f0\ub77d\ucc98","find":"\ucc3e\uae30","rate":"\ub4f1\uae09","ratings":"\ub4f1\uae09","waiting":"\ub300\uae30","complete":"\uc644\ub8cc","question":"\uc9c8\ubb38","answer":"\ub2f5\ubcc0","notify_me_of_new_comments_via_email":"\uc774\uba54\uc77c\ub85c \uc0c8\ub85c\uc6b4 \ub313\uae00 \uc54c\ub9bc \ubc1b\uae30","comment":"\ub313\uae00","comments":"\ub313\uae00"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pasazu.mycafe24.com/wp-content/plugins/kboard/template/js/script.js?ver=6.2" id="kboard-script-js"></script>
+<script type="text/javascript" src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js" id="daum-postcode-js"></script>
+
+
+
+
+
+</body>
+</html>

@@ -36,7 +36,6 @@ const Header = () => {
             <span className="text-gradient">SNBi</span>
           </Link>
           <nav className={styles.nav}>
-            <Link href="/products">쇼핑</Link>
             <div
               className={styles.dropdown}
               onMouseEnter={handleAboutEnter}
@@ -55,6 +54,7 @@ const Header = () => {
                 </div>
               )}
             </div>
+            <Link href="/products">쇼핑몰</Link>
             <div
               className={styles.dropdown}
               onMouseEnter={handleCommunityEnter}
@@ -72,6 +72,7 @@ const Header = () => {
               )}
             </div>
             <Link href="/network">나의 네트워크</Link>
+            <Link href="/search/members">조합원 검색</Link>
           </nav>
         </div>
 
