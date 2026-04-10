@@ -1,8 +1,33 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 import styles from './Header.module.css';
 
 const Header = () => {
+  const [aboutOpen, setAboutOpen] = useState(false);
+  const [communityOpen, setCommunityOpen] = useState(false);
+  const aboutTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const communityTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleAboutEnter = () => {
+    if (aboutTimeoutRef.current) clearTimeout(aboutTimeoutRef.current);
+    setAboutOpen(true);
+  };
+
+  const handleAboutLeave = () => {
+    aboutTimeoutRef.current = setTimeout(() => setAboutOpen(false), 150);
+  };
+
+  const handleCommunityEnter = () => {
+    if (communityTimeoutRef.current) clearTimeout(communityTimeoutRef.current);
+    setCommunityOpen(true);
+  };
+
+  const handleCommunityLeave = () => {
+    communityTimeoutRef.current = setTimeout(() => setCommunityOpen(false), 150);
+  };
+
   return (
     <header className={`${styles.header} glass`}>
       <div className={`${styles.container} container`}>
@@ -12,12 +37,44 @@ const Header = () => {
           </Link>
           <nav className={styles.nav}>
             <Link href="/products">쇼핑</Link>
-            <Link href="/about">회사소개</Link>
-            <Link href="/community">커뮤니티</Link>
+            <div
+              className={styles.dropdown}
+              onMouseEnter={handleAboutEnter}
+              onMouseLeave={handleAboutLeave}
+            >
+              <Link href="/about" className={styles.dropdownTrigger}>
+                회사소개 <span className={styles.arrow}>▼</span>
+              </Link>
+              {aboutOpen && (
+                <div className={`${styles.dropdownMenu} glass`}>
+                  <Link href="/about/intro">SNBI 소개</Link>
+                  <Link href="/about/vision">SNBI 비전</Link>
+                  <Link href="/about/history">SNBI 연혁</Link>
+                  <Link href="/about/organization">SNBI 조직</Link>
+                  <Link href="/about/directions">SNBI 오시는 길</Link>
+                </div>
+              )}
+            </div>
+            <div
+              className={styles.dropdown}
+              onMouseEnter={handleCommunityEnter}
+              onMouseLeave={handleCommunityLeave}
+            >
+              <Link href="/community" className={styles.dropdownTrigger}>
+                커뮤니티 <span className={styles.arrow}>▼</span>
+              </Link>
+              {communityOpen && (
+                <div className={`${styles.dropdownMenu} glass`}>
+                  <Link href="/community/notice">공지사항</Link>
+                  <Link href="/community/media">미디어</Link>
+                  <Link href="/community/contact-us">Contact Us</Link>
+                </div>
+              )}
+            </div>
             <Link href="/network">나의 네트워크</Link>
           </nav>
         </div>
-        
+
         <div className={styles.right}>
           <div className={styles.searchBar}>
             <input type="text" placeholder="검색어를 입력하세요..." />

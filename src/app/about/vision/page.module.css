@@ -1,0 +1,116 @@
+.container {
+  padding-bottom: 100px;
+}
+
+.hero {
+  padding: 120px 0 80px;
+  text-align: center;
+  background: var(--bg-dark);
+  border-bottom: 1px solid var(--border);
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.slogan {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.subSlogan {
+  font-size: 16px;
+  color: var(--text-muted);
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.coreGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.coreCard {
+  padding: 48px 30px;
+  text-align: center;
+}
+
+.coreIcon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.coreCard h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.coreCard p {
+  color: var(--text-muted);
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+}
+
+.valueList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.valueItem {
+  display: flex;
+  gap: 24px;
+  padding: 36px;
+  align-items: flex-start;
+}
+
+.valueNumber {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--primary);
+  opacity: 0.3;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.valueItem h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.valueItem p {
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+@media (max-width: 1024px) {
+  .coreGrid {
+    grid-template-columns: 1fr;
+  }
+}
