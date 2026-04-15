@@ -4,6 +4,9 @@ import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 import styles from './Header.module.css';
 
+// 목업: 로그인 상태 (실제 구현 시 auth context로 교체)
+const IS_LOGGED_IN = false;
+
 const Header = () => {
   const [aboutOpen, setAboutOpen] = useState(false);
   const [communityOpen, setCommunityOpen] = useState(false);
@@ -80,10 +83,17 @@ const Header = () => {
           <div className={styles.searchBar}>
             <input type="text" placeholder="검색어를 입력하세요..." />
           </div>
-          <div className={styles.icons}>
-            <Link href="/cart">🛒</Link>
-            <Link href="/mypage">👤</Link>
-          </div>
+          {IS_LOGGED_IN ? (
+            <div className={styles.icons}>
+              <Link href="/cart" title="장바구니">🛒</Link>
+              <Link href="/mypage" title="마이페이지">👤</Link>
+            </div>
+          ) : (
+            <div className={styles.authBtns}>
+              <Link href="/login" className={styles.loginBtn}>로그인</Link>
+              <Link href="/signup" className={styles.signupBtn}>회원가입</Link>
+            </div>
+          )}
         </div>
       </div>
     </header>

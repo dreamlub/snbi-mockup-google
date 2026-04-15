@@ -1,0 +1,208 @@
+.wrapper {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  max-width: 800px;
+}
+
+/* ── 페이지 헤더 ── */
+.pageHeader {
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: var(--text-main);
+}
+
+.desc {
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+/* ── 검색 박스 ── */
+.searchBox {
+  padding: 24px 28px;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+
+.searchRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 200px;
+  background: var(--bg-dark);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.searchInput:focus {
+  border-color: var(--primary);
+}
+
+.gradeSelect {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.gradeBtn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  background: var(--bg-dark);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.gradeBtn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.gradeBtnActive {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.searchBtn {
+  padding: 12px 24px;
+  white-space: nowrap;
+}
+
+/* ── 결과 메타 ── */
+.resultMeta {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.resultMeta strong {
+  color: var(--primary);
+}
+
+/* ── 멤버 카드 ── */
+.resultList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.memberCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  border-radius: 16px;
+  transition: transform 0.2s;
+}
+
+.memberCard:hover {
+  transform: translateY(-2px);
+}
+
+.memberAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.memberInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.memberName {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.gradeBadge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.grade_NORMAL { background: rgba(100,116,139,0.12); color: #475569; }
+.grade_SILVER { background: rgba(99,102,241,0.12);  color: #6366f1; }
+.grade_GOLD   { background: rgba(255,215,0,0.15);   color: #B45309; }
+.grade_VIP    { background: linear-gradient(135deg, rgba(124,58,237,0.15), rgba(99,179,237,0.1)); color: #7C3AED; }
+
+.memberMeta {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.memberActions {
+  flex-shrink: 0;
+}
+
+.referralCopyBtn {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary);
+  border: 1px solid rgba(0,180,100,0.3);
+  background: rgba(0,180,100,0.06);
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.referralCopyBtn:hover {
+  background: rgba(0,180,100,0.12);
+}
+
+/* ── 빈 상태 ── */
+.empty {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-muted);
+}
+
+.emptyIcon {
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+
+.empty p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.emptyHint {
+  font-size: 14px;
+}

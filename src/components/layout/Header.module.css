@@ -142,3 +142,36 @@
 .icons a:hover {
   transform: scale(1.1);
 }
+
+.authBtns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.loginBtn {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: color 0.2s;
+}
+
+.loginBtn:hover {
+  color: var(--text-main);
+}
+
+.signupBtn {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background: var(--primary);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: filter 0.2s;
+}
+
+.signupBtn:hover {
+  filter: brightness(1.1);
+}
