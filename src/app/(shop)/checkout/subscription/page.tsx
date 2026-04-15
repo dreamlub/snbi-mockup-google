@@ -26,7 +26,7 @@ const SubscriptionPage = () => {
         <div className={`${styles.benefitCard} glass`}>
           <span className={styles.icon}>🚚</span>
           <h3>무료 정기 배송</h3>
-          <p>단 한 품목만 구독하셔도 배송비는 SNBi가 부담합니다.</p>
+          <p>단 한 품목만 구독하셔도 배송비는 SNBI가 부담합니다.</p>
         </div>
         <div className={`${styles.benefitCard} glass`}>
           <span className={styles.icon}>🎁</span>

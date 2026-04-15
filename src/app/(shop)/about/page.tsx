@@ -9,7 +9,7 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className={styles.hero}>
         <div className="container">
-          <h1 className="text-gradient">SNBi: Future of Beauty & Network</h1>
+          <h1 className="text-gradient">SNBI: Future of Beauty & Network</h1>
           <p>우리는 혁신적인 뷰티 솔루션을 통해 모두가 경제적 자유를 누리는 세상을 꿈꿉니다.</p>
         </div>
       </section>

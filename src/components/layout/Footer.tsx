@@ -7,9 +7,9 @@ const Footer = () => {
       <div className={`${styles.container} container`}>
         <div className={styles.top}>
           <div className={styles.info}>
-            <h2 className="text-gradient">SNBi</h2>
+            <h2 className="text-gradient">SNBI</h2>
             <p>(주) 에스엔비아이 | 대표이사: 홍길동</p>
-            <p>서울특별시 강남구 테헤란로 123 SNBi 빌딩</p>
+            <p>서울특별시 강남구 테헤란로 123 SNBI 빌딩</p>
             <p>사업자등록번호: 123-45-67890 | 통신판매업신고: 제2024-서울강남-1234호</p>
           </div>
           <div className={styles.links}>
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.bottom}>
-          <p>© 2024 SNBi. All rights reserved.</p>
+          <p>© 2024 SNBI. All rights reserved.</p>
         </div>
       </div>
     </footer>

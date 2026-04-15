@@ -55,7 +55,7 @@ export default function MyPageHome() {
       <section className={`${styles.heroBanner} glass`}>
         <div className={styles.heroLeft}>
           <p className={styles.heroGreeting}>안녕하세요, <strong>{MOCK_USER.name}</strong>님 👋</p>
-          <p className={styles.heroSub}>오늘도 SNBi와 함께하는 하루 되세요.</p>
+          <p className={styles.heroSub}>오늘도 SNBI와 함께하는 하루 되세요.</p>
           <div className={styles.referralRow}>
             <span className={styles.referralLabel}>나의 추천코드</span>
             <code className={styles.referralValue}>{MOCK_USER.referralCode}</code>

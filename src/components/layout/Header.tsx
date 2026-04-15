@@ -33,7 +33,7 @@ const Header = () => {
       <div className={`${styles.container} container`}>
         <div className={styles.left}>
           <Link href="/" className={styles.logo}>
-            <span className="text-gradient">SNBi</span>
+            <span className="text-gradient">SNBI</span>
           </Link>
           <nav className={styles.nav}>
             <div

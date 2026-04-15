@@ -72,7 +72,7 @@
 .secondaryBtn {
   background: transparent;
   border: 1px solid var(--border);
-  color: white;
+  color: var(--text-main);
   padding: 12px 24px;
   border-radius: 12px;
   font-weight: 600;

@@ -119,7 +119,7 @@
 .group input {
   background: var(--bg-dark);
   border: 1px solid var(--border);
-  color: white;
+  color: var(--text-main);
   padding: 14px 16px;
   border-radius: 12px;
   outline: none;
@@ -151,7 +151,7 @@
   flex: 1;
   background: transparent;
   border: 1px solid var(--border);
-  color: white;
+  color: var(--text-main);
   padding: 12px;
   border-radius: 12px;
   font-weight: 600;

@@ -3,8 +3,8 @@ import AdminSidebar from '@/components/admin/AdminSidebar';
 import styles from './layout.module.css';
 
 export const metadata: Metadata = {
-  title: 'SNBi Admin',
-  description: 'SNBi Shopping Mall Admin Dashboard',
+  title: 'SNBI Admin',
+  description: 'SNBI Shopping Mall Admin Dashboard',
 };
 
 export default function AdminLayout({

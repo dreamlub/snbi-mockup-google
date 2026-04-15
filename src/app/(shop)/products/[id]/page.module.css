@@ -129,7 +129,7 @@
 .quantity button {
   padding: 10px 15px;
   background: var(--glass-bg);
-  color: white;
+  color: var(--text-main);
 }
 
 .quantity input {
@@ -138,7 +138,7 @@
   background: transparent;
   border-left: 1px solid var(--border);
   border-right: 1px solid var(--border);
-  color: white;
+  color: var(--text-main);
   outline: none;
 }
 

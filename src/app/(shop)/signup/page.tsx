@@ -76,7 +76,7 @@ const SignupPage = () => {
           <div className={styles.stepContent + " " + styles.successStep}>
             <div className={styles.successIcon}>✨</div>
             <h2>가입을 축하합니다!</h2>
-            <p>SNBi의 회원이 되신 것을 진심으로 환영합니다.<br />지금 즉시 프리미엄 혜택을 만나보세요.</p>
+            <p>SNBI의 회원이 되신 것을 진심으로 환영합니다.<br />지금 즉시 프리미엄 혜택을 만나보세요.</p>
           </div>
         );
       default:
@@ -89,7 +89,7 @@ const SignupPage = () => {
       <div className={`${styles.card} glass`}>
         <div className={styles.header}>
            <Link href="/" className={styles.logo}>
-            <span className="text-gradient">SNBi</span>
+            <span className="text-gradient">SNBI</span>
           </Link>
           <div className={styles.indicator}>
             {[1, 2, 3, 4].map(s => (

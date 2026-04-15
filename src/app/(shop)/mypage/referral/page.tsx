@@ -16,7 +16,7 @@ const ReferralPage = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>나의 추천인 코드</h1>
-      <p className={styles.subtitle}>지인에게 SNBi를 추천하고 함께 성장하는 기쁨을 누리세요.</p>
+      <p className={styles.subtitle}>지인에게 SNBI를 추천하고 함께 성장하는 기쁨을 누리세요.</p>
 
       <div className={`${styles.codeCard} glass`}>
         <div className={styles.label}>나의 고유 코드</div>

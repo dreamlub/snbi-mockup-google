@@ -9,9 +9,7 @@
   min-height: 600px;
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1600');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
 }
 
 .heroOverlay {
@@ -20,13 +18,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(10, 15, 30, 0.9) 30%, rgba(10, 15, 30, 0.4));
+  background: radial-gradient(ellipse at 30% 50%, rgba(0, 180, 100, 0.15) 0%, transparent 60%);
   z-index: 1;
 }
 
 .heroContent {
   position: relative;
   z-index: 2;
+  color: #ffffff;
 }
 
 .heroContent h1 {
@@ -34,11 +33,12 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 24px;
+  color: #ffffff;
 }
 
 .heroContent p {
   font-size: 20px;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.75);
   max-width: 600px;
   margin-bottom: 40px;
 }
@@ -50,8 +50,8 @@
 
 .secondaryBtn {
   background: transparent;
-  border: 1px solid var(--border);
-  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
   padding: 12px 24px;
   border-radius: 12px;
   font-weight: 600;
@@ -60,7 +60,7 @@
 
 .secondaryBtn:hover {
   border-color: var(--primary);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* Section Common */

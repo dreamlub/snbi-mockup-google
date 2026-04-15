@@ -109,7 +109,7 @@
 }
 
 .searchBar {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-dark);
   border: 1px solid var(--border);
   border-radius: 20px;
   padding: 8px 16px;
@@ -119,7 +119,7 @@
 .searchBar input {
   background: none;
   border: none;
-  color: white;
+  color: var(--text-main);
   width: 100%;
   outline: none;
   font-size: 14px;

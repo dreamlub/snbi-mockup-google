@@ -10,10 +10,10 @@ const LoginPage = () => {
       <div className={`${styles.card} glass`}>
         <div className={styles.header}>
           <Link href="/" className={styles.logo}>
-            <span className="text-gradient">SNBi</span>
+            <span className="text-gradient">SNBI</span>
           </Link>
           <h1>환영합니다</h1>
-          <p>프리미엄 뷰티 솔루션 SNBi에 로그인하세요.</p>
+          <p>프리미엄 뷰티 솔루션 SNBI에 로그인하세요.</p>
         </div>
 
         <form className={styles.form} onSubmit={(e) => e.preventDefault()}>

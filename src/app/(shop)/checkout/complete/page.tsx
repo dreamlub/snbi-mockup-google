@@ -13,7 +13,7 @@ const CompletePage = () => {
         <div className={styles.icon}>🎉</div>
         <h1 className={styles.title}>주문이 완료되었습니다!</h1>
         <p className={styles.message}>
-          SNBi와 함께해 주셔서 감사합니다. <br />
+          SNBI와 함께해 주셔서 감사합니다. <br />
           주문하신 상품은 정성을 다해 배송해 드리겠습니다.
         </p>
         

@@ -6,7 +6,7 @@ export default function AdminSidebar() {
     <aside className={styles.sidebar}>
       <div className={styles.logo}>
         <Link href="/admin" style={{ textDecoration: 'none' }}>
-          <h2>SNBi Admin <span style={{fontSize: '0.8rem', color: '#666'}}>Beta</span></h2>
+          <h2>SNBI Admin <span style={{fontSize: '0.8rem', color: '#666'}}>Beta</span></h2>
         </Link>
       </div>
       <nav className={styles.nav}>

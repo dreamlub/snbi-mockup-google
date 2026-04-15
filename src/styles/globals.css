@@ -2,20 +2,20 @@
 
 :root {
   /* Color Palette */
-  --bg-deep: #0A0F1E;
-  --bg-dark: #131929;
-  --bg-card: rgba(30, 39, 62, 0.4);
+  --bg-deep: #FFFFFF;
+  --bg-dark: #F4F6F8;
+  --bg-card: rgba(255, 255, 255, 0.9);
   --primary: #00B464;
   --primary-glow: rgba(0, 180, 100, 0.3);
-  --accent: #7DFFC4;
+  --accent: #00965A;
   --success: #00D2AA;
   --warning: #FFB800;
   --gold: #FFD700;
-  --text-main: #FFFFFF;
-  --text-muted: #A0AEC0;
-  --border: rgba(255, 255, 255, 0.1);
-  --glass-bg: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --text-main: #0A0F1E;
+  --text-muted: #64748B;
+  --border: rgba(0, 0, 0, 0.1);
+  --glass-bg: rgba(0, 0, 0, 0.03);
+  --glass-border: rgba(0, 0, 0, 0.1);
 
   /* Spacing */
   --header-height: 80px;
@@ -74,7 +74,7 @@ button {
 
 .glass-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
   border-color: var(--primary);
 }
 

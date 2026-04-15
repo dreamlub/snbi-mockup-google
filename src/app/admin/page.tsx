@@ -3,7 +3,7 @@ export default function AdminDashboardPage() {
     <div>
       <h1>대시보드</h1>
       <p style={{ marginTop: '1rem', color: 'var(--color-text-secondary)' }}>
-        환영합니다! SNBi 관리자 시스템입니다. 왼쪽 메뉴를 통해 상세 관리를 진행하실 수 있습니다.
+        환영합니다! SNBI 관리자 시스템입니다. 왼쪽 메뉴를 통해 상세 관리를 진행하실 수 있습니다.
       </p>
       
       <div style={{

@@ -17,7 +17,7 @@ export default function Home() {
             <span className="text-gradient">Financial Freedom</span>
           </h1>
           <p className="fade-in" style={{ animationDelay: '0.2s' }}>
-            SNBi와 함께 당신의 아름다움과 성공을 동시에 디자인하세요.<br />
+            SNBI와 함께 당신의 아름다움과 성공을 동시에 디자인하세요.<br />
             최고의 제품과 체계적인 리워드 시스템이 기다립니다.
           </p>
           <div className={styles.heroBtns + " fade-in"} style={{ animationDelay: '0.4s' }}>

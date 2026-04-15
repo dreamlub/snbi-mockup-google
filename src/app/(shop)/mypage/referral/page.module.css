@@ -116,7 +116,7 @@
 
 .link {
   background: var(--glass-bg);
-  color: white;
+  color: var(--text-main);
 }
 
 @media (max-width: 768px) {

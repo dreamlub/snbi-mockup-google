@@ -119,7 +119,7 @@
 .actionBtn {
   background: var(--glass-bg);
   border: 1px solid var(--border);
-  color: white;
+  color: var(--text-main);
   padding: 8px 20px;
   border-radius: 8px;
   font-size: 13px;

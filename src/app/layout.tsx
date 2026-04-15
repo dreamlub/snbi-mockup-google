@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "SNBi | 프리미엄 다단계 마케팅 쇼핑몰",
-  description: "최고의 퀄리티, 최고의 네트워크 SNBi 쇼핑몰입니다.",
+  title: "SNBI | 프리미엄 다단계 마케팅 쇼핑몰",
+  description: "최고의 퀄리티, 최고의 네트워크 SNBI 쇼핑몰입니다.",
 };
 
 export default function RootLayout({

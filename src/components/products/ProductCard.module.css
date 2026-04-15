@@ -89,7 +89,7 @@
 .cartBtn {
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
-  color: white;
+  color: var(--text-main);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -117,7 +117,7 @@
   text-transform: uppercase;
 }
 
-.normal { background: rgba(160, 174, 192, 0.2); color: #A0AEC0; }
-.silver { background: rgba(192, 192, 192, 0.2); color: #C0C0C0; }
+.normal { background: rgba(100, 116, 139, 0.15); color: #64748B; }
+.silver { background: rgba(100, 100, 100, 0.15); color: #6B7280; }
 .gold { background: rgba(255, 215, 0, 0.2); color: #FFD700; }
 .vip { background: linear-gradient(135deg, #FFD700, #FFA500); color: white; }
