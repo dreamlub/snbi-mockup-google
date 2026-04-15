@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: flex-start;
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
 }
 
 .titleArea {
@@ -30,10 +30,10 @@
   font-weight: bold;
 }
 
-.grade_VIP { background-color: rgba(230, 180, 0, 0.2); color: #e6b400; }
-.grade_GOLD { background-color: rgba(255, 215, 0, 0.2); color: #ffd700; }
-.grade_SILVER { background-color: rgba(192, 192, 192, 0.2); color: #c0c0c0; }
-.grade_NORMAL { background-color: rgba(255, 255, 255, 0.1); color: #aaa; }
+.grade_VIP    { background-color: rgba(124,58,237,0.12); color: #7C3AED; }
+.grade_GOLD   { background-color: rgba(255,215,0,0.15);  color: #B45309; }
+.grade_SILVER { background-color: rgba(99,102,241,0.12); color: #6366f1; }
+.grade_NORMAL { background-color: rgba(100,116,139,0.1); color: #475569; }
 
 .headerActions {
   display: flex;
@@ -41,7 +41,7 @@
 }
 
 .btnPrimary {
-  background-color: var(--color-primary, #5b52e8);
+  background-color: var(--primary, #00B464);
   color: white;
   border: none;
   padding: 8px 16px;
@@ -55,9 +55,9 @@
 .btnPrimary:hover { opacity: 0.9; }
 
 .btnDanger {
-  background-color: rgba(217, 64, 64, 0.1);
-  color: #d94040;
-  border: 1px solid rgba(217, 64, 64, 0.3);
+  background-color: rgba(217,64,64,0.08);
+  color: #b91c1c;
+  border: 1px solid rgba(217,64,64,0.25);
   padding: 8px 16px;
   border-radius: 6px;
   cursor: pointer;
@@ -66,32 +66,32 @@
 }
 
 .btnDanger:hover {
-  background-color: rgba(217, 64, 64, 0.2);
+  background-color: rgba(217,64,64,0.15);
 }
 
 .tabs {
   display: flex;
   gap: 20px;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
 }
 
 .tab {
   padding: 10px 15px;
   cursor: pointer;
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
   border-bottom: 2px solid transparent;
   transition: all 0.2s;
   font-weight: 500;
 }
 
 .tab.active {
-  color: var(--color-text-primary, #fff);
-  border-bottom-color: var(--color-primary, #5b52e8);
+  color: var(--text-main, #0A0F1E);
+  border-bottom-color: var(--primary, #00B464);
 }
 
 .tabContent {
-  background-color: var(--color-background-light, #111);
-  border: 1px solid var(--color-border, #333);
+  background-color: var(--bg-deep, #FFFFFF);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   border-radius: 12px;
   padding: 24px;
 }
@@ -110,13 +110,13 @@
 
 .formGroup label {
   font-size: 0.9rem;
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
 }
 
 .input, .select {
-  background-color: var(--color-background, #050505);
-  border: 1px solid var(--color-border, #333);
-  color: var(--color-text-primary, #fff);
+  background-color: var(--bg-dark, #F4F6F8);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
+  color: var(--text-main, #0A0F1E);
   padding: 10px 12px;
   border-radius: 6px;
   font-size: 0.95rem;
@@ -125,19 +125,19 @@
 }
 
 .input:focus, .select:focus {
-  border-color: var(--color-primary, #5b52e8);
+  border-color: var(--primary, #00B464);
 }
 
 .input:read-only {
-  background-color: rgba(255, 255, 255, 0.02);
-  color: var(--color-text-secondary, #aaa);
+  background-color: rgba(0,0,0,0.03);
+  color: var(--text-muted, #64748B);
   cursor: not-allowed;
 }
 
 .btnOutline {
   background-color: transparent;
-  color: var(--color-text-primary, #fff);
-  border: 1px solid var(--color-border, #333);
+  color: var(--text-main, #0A0F1E);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   padding: 8px 16px;
   border-radius: 6px;
   cursor: pointer;
@@ -145,13 +145,13 @@
   transition: all 0.2s;
 }
 
-.btnOutline:hover { background-color: rgba(255, 255, 255, 0.05); }
+.btnOutline:hover { background-color: rgba(0,0,0,0.05); }
 
 /* Modal Styles */
 .modalOverlay {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0,0,0,0.4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,8 +159,8 @@
 }
 
 .modalContent {
-  background-color: var(--color-background-light, #111);
-  border: 1px solid var(--color-border, #333);
+  background-color: var(--bg-deep, #FFFFFF);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   border-radius: 12px;
   padding: 24px;
   width: 400px;
@@ -187,16 +187,16 @@
 }
 
 .table th {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0,0,0,0.03);
   padding: 12px 20px;
   font-size: 0.85rem;
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
   font-weight: 500;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
 }
 
 .table td {
   padding: 12px 20px;
   font-size: 0.9rem;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
 }

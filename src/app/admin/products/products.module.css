@@ -21,7 +21,7 @@
 }
 
 .header p {
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
   font-size: 0.9rem;
 }
 
@@ -32,7 +32,7 @@
 
 /* ── Buttons ── */
 .btnPrimary {
-  background-color: var(--color-primary, #5b52e8);
+  background-color: var(--primary, #00B464);
   color: #fff;
   border: none;
   padding: 8px 18px;
@@ -50,8 +50,8 @@
 
 .btnOutline {
   background-color: transparent;
-  color: var(--color-text-primary, #fff);
-  border: 1px solid var(--color-border, #333);
+  color: var(--text-main, #0A0F1E);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   padding: 8px 16px;
   border-radius: 6px;
   cursor: pointer;
@@ -61,24 +61,24 @@
   align-items: center;
   transition: background-color 0.2s;
 }
-.btnOutline:hover { background-color: rgba(255,255,255,0.05); }
+.btnOutline:hover { background-color: rgba(0,0,0,0.05); }
 
 .btnDanger {
-  background-color: rgba(217,64,64,0.1);
-  color: #d94040;
-  border: 1px solid rgba(217,64,64,0.3);
+  background-color: rgba(217,64,64,0.08);
+  color: #b91c1c;
+  border: 1px solid rgba(217,64,64,0.25);
   padding: 6px 12px;
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.82rem;
   transition: background-color 0.2s;
 }
-.btnDanger:hover { background-color: rgba(217,64,64,0.2); }
+.btnDanger:hover { background-color: rgba(217,64,64,0.15); }
 
 /* ── Search / Filter Card ── */
 .filterCard {
-  background-color: var(--color-background-light, #111);
-  border: 1px solid var(--color-border, #333);
+  background-color: var(--bg-deep, #FFFFFF);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   border-radius: 12px;
   padding: 18px 20px;
   display: flex;
@@ -96,25 +96,25 @@
 }
 .formGroup label {
   font-size: 0.82rem;
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
 }
 
 .input, .select {
-  background-color: var(--color-background, #050505);
-  border: 1px solid var(--color-border, #333);
-  color: var(--color-text-primary, #fff);
+  background-color: var(--bg-dark, #F4F6F8);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
+  color: var(--text-main, #0A0F1E);
   padding: 8px 12px;
   border-radius: 6px;
   font-size: 0.9rem;
   outline: none;
   width: 100%;
 }
-.input:focus, .select:focus { border-color: var(--color-primary, #5b52e8); }
+.input:focus, .select:focus { border-color: var(--primary, #00B464); }
 
 /* ── Product Table Card ── */
 .tableCard {
-  background-color: var(--color-background-light, #111);
-  border: 1px solid var(--color-border, #333);
+  background-color: var(--bg-deep, #FFFFFF);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   border-radius: 12px;
   overflow: hidden;
 }
@@ -124,9 +124,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 14px 20px;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
   font-size: 0.9rem;
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
 }
 
 .tableContainer { overflow-x: auto; }
@@ -137,30 +137,30 @@
   text-align: left;
 }
 .table th {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.03);
   padding: 11px 18px;
   font-size: 0.82rem;
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
   font-weight: 500;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
   white-space: nowrap;
 }
 .table td {
   padding: 12px 18px;
   font-size: 0.88rem;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
   white-space: nowrap;
   vertical-align: middle;
 }
 .table tr:last-child td { border-bottom: none; }
-.table tr:hover td { background-color: rgba(255,255,255,0.02); }
+.table tr:hover td { background-color: rgba(0,0,0,0.02); }
 
 .productImg {
   width: 48px;
   height: 48px;
   object-fit: cover;
   border-radius: 6px;
-  background-color: #1a1a1a;
+  background-color: #e2e8f0;
 }
 
 .categoryBadge {
@@ -170,10 +170,10 @@
   font-size: 0.75rem;
   font-weight: 600;
 }
-.cat_SKIN   { background-color: rgba(91,82,232,0.2); color: #9d97f5; }
-.cat_BODY   { background-color: rgba(45,184,122,0.2); color: #2db87a; }
-.cat_HAIR   { background-color: rgba(230,180,0,0.2); color: #e6b400; }
-.cat_OTHER  { background-color: rgba(255,255,255,0.1); color: #aaa; }
+.cat_SKIN   { background-color: rgba(91,82,232,0.12);  color: #4C46A8; }
+.cat_BODY   { background-color: rgba(0,180,100,0.12);  color: #007A44; }
+.cat_HAIR   { background-color: rgba(180,130,0,0.12);  color: #92600A; }
+.cat_OTHER  { background-color: rgba(100,116,139,0.1); color: #64748B; }
 
 /* ── Form Page Styles ── */
 .formPage {
@@ -183,15 +183,15 @@
 }
 
 .section {
-  background-color: var(--color-background-light, #111);
-  border: 1px solid var(--color-border, #333);
+  background-color: var(--bg-deep, #FFFFFF);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   border-radius: 12px;
   overflow: hidden;
 }
 
 .sectionHeader {
   padding: 14px 20px;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
   font-weight: 600;
   font-size: 1rem;
   display: flex;
@@ -222,8 +222,8 @@
 }
 
 .priceItem {
-  background-color: rgba(0,0,0,0.2);
-  border: 1px solid var(--color-border, #333);
+  background-color: var(--bg-dark, #F4F6F8);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   border-radius: 8px;
   padding: 12px;
   display: flex;
@@ -235,27 +235,27 @@
   font-weight: 700;
   letter-spacing: 0.05em;
 }
-.priceLabel.vip    { color: #e6b400; }
-.priceLabel.gold   { color: #ffd700; }
-.priceLabel.silver { color: #c0c0c0; }
-.priceLabel.normal { color: #aaa; }
-.priceLabel.base   { color: var(--color-text-primary, #fff); }
+.priceLabel.vip    { color: #7C3AED; }
+.priceLabel.gold   { color: #B45309; }
+.priceLabel.silver { color: #6366f1; }
+.priceLabel.normal { color: #64748B; }
+.priceLabel.base   { color: var(--text-main, #0A0F1E); }
 
 .priceInput {
-  background-color: var(--color-background, #050505);
-  border: 1px solid var(--color-border, #333);
-  color: var(--color-text-primary, #fff);
+  background-color: var(--bg-deep, #FFFFFF);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
+  color: var(--text-main, #0A0F1E);
   padding: 8px 10px;
   border-radius: 6px;
   font-size: 0.9rem;
   width: 100%;
   outline: none;
 }
-.priceInput:focus { border-color: var(--color-primary, #5b52e8); }
+.priceInput:focus { border-color: var(--primary, #00B464); }
 
 /* ── Mock Rich Editor ── */
 .editorWrapper {
-  border: 1px solid var(--color-border, #333);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
   border-radius: 8px;
   overflow: hidden;
 }
@@ -263,8 +263,8 @@
 .editorToolbar {
   display: flex;
   gap: 2px;
-  background-color: rgba(0,0,0,0.3);
-  border-bottom: 1px solid var(--color-border, #333);
+  background-color: var(--bg-dark, #F4F6F8);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
   padding: 6px 8px;
   flex-wrap: wrap;
   align-items: center;
@@ -275,14 +275,14 @@
   gap: 1px;
   margin-right: 6px;
   padding-right: 6px;
-  border-right: 1px solid var(--color-border, #333);
+  border-right: 1px solid var(--border, rgba(0,0,0,0.1));
 }
 .toolbarGroup:last-child { border-right: none; }
 
 .toolbarBtn {
   background: none;
   border: none;
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
   padding: 4px 8px;
   border-radius: 4px;
   cursor: pointer;
@@ -292,13 +292,13 @@
   transition: background-color 0.15s, color 0.15s;
 }
 .toolbarBtn:hover {
-  background-color: rgba(255,255,255,0.08);
-  color: var(--color-text-primary, #fff);
+  background-color: rgba(0,0,0,0.06);
+  color: var(--text-main, #0A0F1E);
 }
 .toolbarSelect {
-  background-color: rgba(0,0,0,0.4);
-  border: 1px solid var(--color-border, #333);
-  color: var(--color-text-secondary, #aaa);
+  background-color: var(--bg-deep, #FFFFFF);
+  border: 1px solid var(--border, rgba(0,0,0,0.1));
+  color: var(--text-muted, #64748B);
   border-radius: 4px;
   padding: 3px 6px;
   font-size: 0.82rem;
@@ -307,8 +307,8 @@
 }
 
 .editorBody {
-  background-color: var(--color-background, #050505);
-  color: var(--color-text-primary, #fff);
+  background-color: var(--bg-deep, #FFFFFF);
+  color: var(--text-main, #0A0F1E);
   min-height: 280px;
   padding: 14px 16px;
   font-size: 0.95rem;

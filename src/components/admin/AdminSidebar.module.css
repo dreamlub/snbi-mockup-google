@@ -1,7 +1,7 @@
 .sidebar {
   width: 250px;
-  background-color: var(--color-background-dark, #111);
-  border-right: 1px solid var(--color-border, #333);
+  background-color: var(--bg-deep, #FFFFFF);
+  border-right: 1px solid var(--border, rgba(0,0,0,0.1));
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,12 +11,12 @@
 
 .logo {
   padding: 20px;
-  border-bottom: 1px solid var(--color-border, #333);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.1));
 }
 
 .logo h2 {
   font-size: 1.5rem;
-  color: var(--color-text-primary, #fff);
+  color: var(--text-main, #0A0F1E);
   margin: 0;
 }
 
@@ -34,27 +34,27 @@
 .nav li a {
   display: block;
   padding: 12px 20px;
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-muted, #64748B);
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
 .nav li a:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-  color: var(--color-text-primary, #fff);
+  background-color: rgba(0,0,0,0.05);
+  color: var(--text-main, #0A0F1E);
 }
 
 .footer {
   padding: 20px;
-  border-top: 1px solid var(--color-border, #333);
+  border-top: 1px solid var(--border, rgba(0,0,0,0.1));
 }
 
 .footer a {
-  color: var(--color-text-muted, #666);
+  color: var(--text-muted, #64748B);
   font-size: 0.9rem;
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: var(--color-text-primary, #fff);
+  color: var(--text-main, #0A0F1E);
 }
